@@ -1,6 +1,7 @@
 # PerfPythonFastAPI
 
 ## Docs
+- https://fastapi.tiangolo.com/async/
 - https://morioh.com/p/78598efe32b5
 
 ## Install
@@ -33,3 +34,7 @@ def read_item(item_id: int, q: Optional[str] = None):
  ## Run the server 
  
  uvicorn main:app --reload
+
+ ## API
+- http://127.0.0.1:8000/items/5?q=somequery
+- http://127.0.0.1:8000/docs
