@@ -1,5 +1,8 @@
 # PerfPythonFastAPI
 
+## Docs
+- https://morioh.com/p/78598efe32b5
+
 ## Install
 ```
  pip install fastapi
